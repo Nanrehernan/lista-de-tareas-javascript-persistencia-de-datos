@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.task{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.form-container{
+    padding: 10px;
+}
+
+.task-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.task-input > *{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.task-button{
+    display: flex;
+}
+
+.task-button > *{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.task-container{
+    padding: 10px;
+}
+
+.task-element{
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 10px;;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-element button{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: red;
+    color: #fff;
+}
